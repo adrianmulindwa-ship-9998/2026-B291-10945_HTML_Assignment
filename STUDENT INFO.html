@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing a Simple HTML Web Page</title>
+</head>
+<body>
+    <!-- Requirement 2: Headings & Paragraphs -->
+    <h1>University Student Information Portal</h1>
+    <p>Welcome to the official <b>Student Information Portal</b>. This platform is designed to provide seamless access to academic records, registration procedures, and campus services for all enrolled students.</p>
+    
+    <h2>About Our Campus</h2>
+    <p>Our university is dedicated to academic excellence, innovative research, and fostering a supportive environment for personal growth. Explore the resources below to manage your student life efficiently.</p>
+
+    <!-- Requirement 6: Additional Element (Horizontal Line) -->
+    <hr>
+
+    <!-- Requirement 3: Ordered List -->
+    <h2><i>Steps for Student Registration</i></h2>
+    <ol>
+        <li>Clear all administrative and financial dues.</li>
+        <li>Select your preferred courses for the upcoming semester.</li>
+        <li>Submit your course registration form online or physically at the registrar's office.</li>
+        <li>Collect your verified course confirmation slip.</li>
+    </ol>
+
+    <!-- Requirement 3: Unordered List -->
+    <h2><i>Student Courses Available</i></h2>
+    <ul>
+        <li>Computer Science</li>
+        <li>Information Technology</li>
+        <li>Education</li>
+        <li>Agricultural Science</li>
+    </ul>
+
+    <!-- Requirement 6: Additional Element (Horizontal Line) -->
+    <hr>
+
+    <!-- Requirement 4: Table -->
+    <h2><i>Enrolled Students Directory</i></h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Registration Number</th>
+                <th>Course</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nambyatya Martha</td>
+                <td>2026-B291-10945</td>
+                <td>Computer Science</td>
+                <td>Year 1</td>
+            </tr>
+            <tr>
+                <td>Mulindwa Adrian</td>
+                <td>2026-B291-10945</td>
+                <td>Information Technology</td>
+                <td>Year 2</td>
+            </tr>
+            <tr>
+                <td>Mubiru Francis</td>
+                <td>2026-B291-10945</td>
+                <td>Education</td>
+                <td>Year 3</td>
+            </tr>
+            <tr>
+                <td>Namubiru Irene</td>
+                <td>2026-B291-10945</td>
+                <td>Agricultural Science</td>
+                <td>Year 1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Requirement 6: Additional Element (Horizontal dotted Line) -->
+    <hr style="border-top: 2px dotted blue;">
+
+    <!-- Requirement 5: HTML Form -->
+    <h2><b>Student Registration Form</b></h2>
+    <form action="#" method="post">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="regnumber">Registration Number:</label><br>
+        <input type="text" id="regnumber" name="regnumber" value="2026-B291-10945" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="course">Course/Programme:</label><br>
+        <select id="course" name="course">
+            <option value="cs">Computer Science</option>
+            <option value="it">Information Technology</option>
+            <option value="se">Education</option>
+            <option value="ds">Agricultural Science</option>
+        </select><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+    <img src="UMU.png" alt="University Logo" width="100" height="100">
+
+    <!-- Requirement 6: Additional Element (Horizontal Line & Link) -->
+    <hr>
+    <p>For further information, visit the official <a href="https://www.UMU.com" target="_blank">University Help Desk</a>.</p>
+
+</body>
+</html>
+    
+</body>
+</html>
